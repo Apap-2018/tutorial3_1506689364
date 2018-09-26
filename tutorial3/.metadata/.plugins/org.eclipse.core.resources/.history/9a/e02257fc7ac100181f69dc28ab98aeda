@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>View</title>
+	</head>
+	<body>
+			<h3 th:text="'License Number ' + ${pilot.licenseNumber} +' tidak ditemukan'">License Number Tidak Ada</h3>
+	</body>
+</html>

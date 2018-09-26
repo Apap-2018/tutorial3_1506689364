@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>View</title>
+	</head>
+	<body>
+			<h3 th:text="'ID ' +${pilot.id} + ' tidak ketemu'">ID tidak ketemu</h3>
+	</body>
+</html>
